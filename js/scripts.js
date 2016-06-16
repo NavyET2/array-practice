@@ -8,4 +8,14 @@ ranks.forEach(function(rank) {
   });
 });
 
+
+var deckOfCards2 = [];
+for (var rank = 0; rank < ranks.length; rank +=1) {
+  for ( var suit = 0; suit < suits.length; suit +=1) {
+    deckOfCards2.push(ranks[rank] + " " + suits[suit]);
+  }
+
+}
+
 console.log(deckOfCards);
+console.log(deckOfCards2);
